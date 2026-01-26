@@ -5,6 +5,20 @@ theme: hugo-narrow
 hasCJKLanguage: true
 enableEmoji: true
 
+permalinks:
+  section:
+    projects: /projects/
+  page:
+    projects: /projects/:slug
+
+menus:
+  main:
+    - name: nav.projects
+      pageRef: /projects
+      weight: 1
+      params:
+        icon: projects
+
 params:
   colorScheme: slate
   header:
@@ -28,10 +42,10 @@ languages:
     params:
       author:
         name: Jason Kwok
-      social:
-        - name: GitHub
-          icon: github
-          url: https://github.com/JasonHK
+        social:
+          - name: GitHub
+            icon: github
+            url: https://github.com/JasonHK
   zh:
     languageCode: zh-Hant-HK
     languageName: 中文
