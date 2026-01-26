@@ -1,0 +1,42 @@
+title: ImJason.HK
+baseURL: https://imjason.hk/
+theme: hugo-narrow
+
+hasCJKLanguage: true
+enableEmoji: true
+
+params:
+  colorScheme: slate
+  header:
+    logo:
+      image: /images/avatar.png
+    showThemeSwitch: false
+  author:
+    avatar: /images/avatar.png
+  home:
+    contentOrder:
+      - author-section
+      - page-content
+
+defaultContentLanguage: en
+languages:
+  en:
+    languageCode: en
+    languageName: English
+    weight: 1
+
+    params:
+      author:
+        name: Jason Kwok
+      social:
+        - name: GitHub
+          icon: github
+          url: https://github.com/JasonHK
+  zh:
+    languageCode: zh-Hant-HK
+    languageName: 中文
+    weight: 2
+
+    params:
+      author:
+        name: 傑森
