@@ -18,6 +18,11 @@ menus:
       weight: 1
       params:
         icon: projects
+    - name: nav.tags
+      pageRef: /tags
+      weight: 2
+      params:
+        icon: tags
 
 params:
   colorScheme: slate
