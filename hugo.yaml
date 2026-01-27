@@ -9,7 +9,7 @@ permalinks:
   section:
     projects: /projects/
   page:
-    projects: /projects/:slug
+    projects: /projects/:slug/
 
 menus:
   main:
@@ -30,7 +30,7 @@ params:
   home:
     contentOrder:
       - author-section
-      - page-content
+      - featured-projects
 
 defaultContentLanguage: en
 languages:
