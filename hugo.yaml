@@ -26,7 +26,14 @@ params:
       image: /images/avatar.png
     showThemeSwitch: false
   author:
+    name: author.name
+    title: author.title
+    description: "Focused on content and user experience."
     avatar: /images/avatar.png
+    social:
+      - name: GitHub
+        icon: github
+        url: https://github.com/JasonHK
   home:
     contentOrder:
       - author-section
@@ -38,19 +45,7 @@ languages:
     languageCode: en
     languageName: English
     weight: 1
-
-    params:
-      author:
-        name: Jason Kwok
-        social:
-          - name: GitHub
-            icon: github
-            url: https://github.com/JasonHK
   zh:
     languageCode: zh-Hant-HK
     languageName: 中文
     weight: 2
-
-    params:
-      author:
-        name: 傑森
