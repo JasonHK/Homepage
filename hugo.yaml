@@ -9,20 +9,36 @@ permalinks:
   section:
     projects: /projects/
   page:
-    projects: /projects/:slug/
+    projects: /projects/:slugorcontentbasename/
 
 menus:
   main:
-    - name: nav.projects
-      pageRef: /projects
+    - identifier: nav.home
+      pageRef: /
       weight: 1
       params:
-        icon: projects
-    - name: nav.tags
-      pageRef: /tags
+        icon: home
+    - identifier: nav.about
+      pageRef: /about
       weight: 2
       params:
+        icon: about
+    - identifier: nav.projects
+      pageRef: /projects
+      weight: 3
+      params:
+        icon: projects
+    - identifier: nav.tags
+      pageRef: /tags
+      weight: 4
+      params:
         icon: tags
+  footer:
+    - name: RSS Feed
+      url: /index.xml
+      weight: 1
+      params:
+        icon: rss
 
 params:
   colorScheme: slate
@@ -33,7 +49,7 @@ params:
   author:
     name: author.name
     title: author.title
-    description: "Focused on content and user experience."
+    description: author.summary
     avatar: /images/avatar.png
     social:
       - name: GitHub
