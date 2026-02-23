@@ -1,6 +1,6 @@
 title: ImJason.HK
 baseURL: https://imjason.hk/
-theme: hugo-narrow
+theme: narrow
 
 hasCJKLanguage: true
 enableEmoji: true
