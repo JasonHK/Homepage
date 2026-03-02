@@ -1,5 +1,5 @@
 /*
-    Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; frame-src 'self'; connect-src 'self'; media-src 'self'; object-src 'none'; base-uri 'self'
+    Content-Security-Policy: default-src 'self'; script-src script-src-elem 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; frame-src 'self'; connect-src 'self'; media-src 'self'; object-src 'none'; base-uri 'self'
     Referrer-Policy: no-referrer, strict-origin-when-cross-origin
     Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
     X-Content-Type-Options: nosniff
