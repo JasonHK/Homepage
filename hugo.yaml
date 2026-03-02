@@ -1,6 +1,7 @@
 title: ImJason.HK
 baseURL: https://imjason.hk/
 theme: narrow
+enableGitInfo: true
 
 hasCJKLanguage: true
 enableEmoji: true
