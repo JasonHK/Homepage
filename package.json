@@ -1,0 +1,24 @@
+{
+  "name": "homepage",
+  "description": "",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "author": "Jason Kwok <git@jasonhk.dev> (https://imjason.hk)",
+  "homepage": "https://github.com/JasonHK/Homepage#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonHK/Homepage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JasonHK/Homepage/issues"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@mexican-man/pages-csp-generator": "^0.1.5"
+  }
+}
